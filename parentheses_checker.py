@@ -1,3 +1,5 @@
+#https://www.codewars.com/kata/all-balanced-parentheses
+
 def group_check(xs):
     index = 0
     p_dict = {
