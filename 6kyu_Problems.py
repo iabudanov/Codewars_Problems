@@ -80,8 +80,3 @@ def find_outlier(numbers):
         return(odd[0])
     elif len(even) < len(odd) and (len(even) == 1):
         return(even[0])  
-
-
-
-
-
