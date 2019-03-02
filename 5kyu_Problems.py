@@ -59,3 +59,13 @@ def cakes(recipe, available):
     return result
 
 
+#https://www.codewars.com/kata/52f787eb172a8b4ae1000a34
+def zeros(n):
+    sum = 0
+    divisor_list = [5, 25, 125, 625, 3125, 15625, 78125, 390625, 1953125,
+    9765625,  48828125, 244140625, 1220703125]
+    for divisor in divisor_list:
+	    sum += int(n/divisor)
+    return sum
+
+
